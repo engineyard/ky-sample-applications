@@ -70,8 +70,3 @@ No labels found.
 ```
 
 8. Visit the application in the url: http://ilias-ky-school.jfuechsl-playground.kontaineryard.io/
-
-
-# To run specific tests: (for example)
-
-bundle exec ruby -Itest test/functional/lists_controller_test.rb --name test_should_create_list
