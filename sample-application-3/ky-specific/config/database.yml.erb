@@ -1,0 +1,8 @@
+development:
+  adapter:   postgresql
+  database:  'ilias-sidekiq-deis-app'
+  username:  'deploy'
+  password:  '<%= ENV["db_yml_password"] %>'
+  host:      '<%= ENV["db_yml_host"] %>'
+  reconnect: true
+  pool: 2  
